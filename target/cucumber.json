@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2860703000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I login with correct Credentials",
+            "match": {
+              "location": "HrmOrangeStepNegative.i_login_with_correct_Credentials()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-06T22:53:23.790Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2518522800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 272043900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1312593300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on leave and my leave",
+            "match": {
+              "location": "hrmOrangeStepPositive.iClickOnLeaveAndMyLeave()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75121100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am able to see leave table record",
+            "match": {
+              "location": "hrmOrangeStepPositive.iAmAbleToSeeLeaveTableRecord()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@minh"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/uiFeatures/hrmOrangePositive.feature",
+    "tags": []
+  }
+]
