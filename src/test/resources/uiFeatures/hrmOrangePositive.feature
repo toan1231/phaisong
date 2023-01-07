@@ -1,4 +1,4 @@
-Feature:
+Feature: hrmOrange page verification
   Background:
     Then I login with correct Credentials
     @minh
